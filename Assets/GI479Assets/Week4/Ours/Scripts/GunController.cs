@@ -16,7 +16,7 @@ public class GunController : MonoBehaviour, IHandGrabUseDelegate
     private float releaseThreshold = 0.2f;
 
     [SerializeField]
-    private Bullet bullet;
+    private GameObject bullet;
 
     [Space]
     [SerializeField]
